@@ -1,0 +1,6 @@
+[build]
+  Functions = "functions"
+[[redirects]]
+  from = "/*"
+  to = "/index"
+  status = 200
