@@ -3,6 +3,8 @@ const serverless = require('serverless-http');
 const bodyParser = require('body-parser');
 const cors = require('cors');
 
+const admin=require('./src/firebase-connect.js');
+
 const app = express();
 const router = express.Router();
 router.use(cors());
